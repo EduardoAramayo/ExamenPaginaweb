@@ -1,0 +1,52 @@
+header nav{
+    color: red;
+    text-shadow: 0 0 15px red, 0 0 30px red, 0 0 50px red;
+    font-family: 'Bitter', serif;
+    font-family: 'Dancing Script', cursive;
+}
+section{
+    border: 2px solid white;
+    box-shadow: inset 0 0 15 cyan,0 0 30 cyan, 0 0 50 cyan;
+    border-radius: 60px;
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+section h3{
+    font-family: monospace;
+    text-shadow: 0 0 15px red, 0 0 30px red, 0 0 50px red;
+    text-align: center;
+}
+section p{
+    font-family: monospace;
+    text-shadow: 0 0 15px cyan, 0 0 30px cyan, 0 0 50px cyan;
+    text-align: center;
+}
+header h1{
+    text-shadow: 0 0 15px red, 0 0 30px red, 0 0 50px red;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+div a{
+    color: #15f4ee;
+}
+.button{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+    color: #15f4ee;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    border: 3px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+.button:hover{
+box-shadow: 0 5px 50px #15f4ee inset,0 5px 50px #15f4ee,0 5px 50px #15f4ee inset,0 5px 50px #15f4ee;
+}

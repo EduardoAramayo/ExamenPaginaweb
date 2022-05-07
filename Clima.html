@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Api clima</title>
+  <link rel="stylesheet" href="css/climaestilo.css">
+</head>
+<body>
+  <Header>
+    <a href="index.html"><img src="img/klipartz.com.png" alt="Logo"
+        width="100px" height="100px"></a>
+    <h1 style="color: white;">Phoenix Game World</h1>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Servicios.html">Servicios</a>
+        <a href="Nosotros.html">Nosotros</a>
+        <a href="Contacto.html">Contacto</a>
+    </nav>
+</Header>
+  </Header>
+  <div class="api">
+    <div class="contenedor">🌞 Necesitamos una APIKey de OpenWeather <a target="_blank" href="https://home.openweathermap.org/users/sign_up">Obtenla gratis!</a>
+    </div>
+  </div>
+  <section class="top-banner">
+    <div class="contenedor">
+      <h1 class="cabecera">Indique Pais :</h1>
+      <form>
+        <input type="text" placeholder="Ingrese una ciudad o pais" autofocus>
+        <button type="submit">Enviar</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="seccion-con-ajax">
+    <div class="contenedor">
+      <ul class="ciudades"></ul>
+    </div>
+  </section>
+  <footer>
+    <h2>footer</h2>
+    <p>Duis mollis, est non commodo luctus, 
+        nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+        Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, 
+        tellus ac cursus commodo, tortor mauris condimentum nibh, 
+        ut fermentum massa justo sit amet risus.</p>
+    <p>Duis mollis, est non commodo luctus, 
+        nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+        Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, 
+        tellus ac cursus commodo, tortor mauris condimentum nibh, 
+        ut fermentum massa justo sit amet risus.</p>
+        <div class="contenedor">
+            <p class="copy">Elmerenas &copy; 2022</p>
+        </div>
+</footer>
+  <script src="js/clima.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+@import url("neon.css");
+@import url("slider.css");
+@import url("Header.css");
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://www.todofondos.net/wp-content/uploads/fondo-de-pantalla-abstracto-encuentra-el-mejor-fondo-de-pantalla-abstracto-en-hd-para.-fondo-para-computadora-abstractos-scaled.jpg");
+}
+
+.img1{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+
+.imgser{
+    margin: 0%;
+    border-radius: 25px 25px 25px 25px;
+}
+section{
+    font-size: 1.3em;
+}
+
+footer{
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+@media screen and (max-width: 700px){
+    nav, .row{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
